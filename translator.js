@@ -83,7 +83,6 @@
 // "spectrum", "singly" might become "single" and "ionized" becomes "ion" so that the index entry for "ion" 
 // points to all places in which "ionized", "ion", "ionization", ionizes", etc is mentioned. 
 // ///////////////////////////////////////////////////////////////////////////////////
-function translator() {
 // do not match the word if it begins a sentence (if the word is at beginning or if preceded by a period then whitespace).
   var NNNNNdotN = /(\d\d\d\d\d\.\d+)/.source;  // (12345.6789)
   var NNNNN =     /(\d\d\d\d\d)/.source;  // (12345);
@@ -3081,7 +3080,5 @@ function translator() {
               if (xLtr[i].tXsupp !== undefined) {while (xLtr[i].tXsupp.match(r)) {xLtr[i].tXsupp = xLtr[i].tXsupp.replace(r, '$1' + '\*' + ast[j] + '$2');}}
          }
      }
-     return
-   }
 // ////////////////////////// end TRANSLATOR ///////////////////////////////////
   
