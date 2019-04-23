@@ -136,7 +136,7 @@
 
 
 // Load up survey and mission name-finding:
-  readInFile('surveysMissions', '1', 'jargon');
+ // readInFile('surveysMissions', '1', 'jargon');
 
 
 // Load up astronomy journal names
@@ -167,7 +167,7 @@
 // the translator is done, consider this a one-time-only call for the calling code.
 // Note that if the translator is stringified and/or saved  in some fashion, all the functions
 // embedded in "indx" will be lost. 
-  return xLtr;
+ // return xLtr;
 
 
 // ============================ findAcronyms =============================
